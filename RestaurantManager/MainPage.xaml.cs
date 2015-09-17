@@ -24,5 +24,15 @@ namespace RestaurantManager
         {
             InitializeComponent();
         }
+
+        private void orderButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void submitButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

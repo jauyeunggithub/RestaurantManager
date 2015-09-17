@@ -24,5 +24,10 @@ namespace RestaurantManager
         {
             InitializeComponent();
         }
+
+        private void clearButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

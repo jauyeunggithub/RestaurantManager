@@ -10,9 +10,9 @@
 
     <Grid Background="Black">
         <TextBlock x:Name="restaurantManagerTextBlock" HorizontalAlignment="Left" Margin="49,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="48" Width="210" FontSize="21.333" FontWeight="Bold"><Run Foreground="White" FontWeight="Normal" Text="Restaurant Manager"/><LineBreak/><Run/></TextBlock>
-        <TextBlock x:Name="submitOrderTextBlock" HorizontalAlignment="Left" Margin="181,192,0,0" TextWrapping="Wrap" Text="**Submit Order**" VerticalAlignment="Top" Height="30" Width="119" Foreground="White" FontSize="13.333" />
-        <TextBlock x:Name="ordersViewTextBlock" HorizontalAlignment="Left" Margin="10,183,0,0" TextWrapping="Wrap" Text="**Go to Orders View**" VerticalAlignment="Top" Height="39" Width="118" Foreground="White" FontSize="13.333" />
         <TextBlock x:Name="internalTextBlock" HorizontalAlignment="Left" Margin="89,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="130" FontSize="13.333"><Run Text="Internal Test Version" Foreground="White"/><LineBreak/><Run/></TextBlock>
+        <Button x:Name="orderButton" Content="Go to Orders View" HorizontalAlignment="Left" Margin="10,219,0,0" VerticalAlignment="Top" Width="101" FontSize="10.667" Height="27" Click="orderButton_Click"/>
+        <Button x:Name="submitButton" Content="Submit Order" HorizontalAlignment="Left" Margin="197,219,0,0" VerticalAlignment="Top" Width="80" FontSize="10.667" Height="27" Click="submitButton_Click"/>
 
     </Grid>
 </Page>

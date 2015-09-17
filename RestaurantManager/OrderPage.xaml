@@ -6,13 +6,18 @@
       xmlns:local="clr-namespace:RestaurantManager"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
-      Title="OrderPage">
-
+      Title="OrderPage">        
     <Grid Background="Black">
-        <TextBlock x:Name="specialTextBlock" HorizontalAlignment="Left" Margin="100,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="13.333" Height="26" Width="200"><Run Text="Special  Requests: Order Items:"/><LineBreak/><Run/></TextBlock>
-        <TextBlock x:Name="addTextBlock" HorizontalAlignment="Center" Margin="0,250,143,0" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="16" Height="50" Width="157"><Run Foreground="White" Text="**Add to Order**"/></TextBlock>
-        <TextBlock x:Name="submitTextBlock" HorizontalAlignment="Center" Margin="162,250,0,0" TextWrapping="Wrap" Text="**Submit Order**" VerticalAlignment="Center" Height="50" Width="138" Foreground="White" FontSize="16"/>
-        <Grid HorizontalAlignment="Left" Height="300" Margin="10,0,0,0" VerticalAlignment="Top" Width="280"/>
+        <TextBlock x:Name="specialTextBlock" HorizontalAlignment="Left" Margin="100,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="13.333" Height="26" Width="108"><Run Text="Special  Requests:"/><LineBreak/><Run/></TextBlock>
+        <Grid HorizontalAlignment="Left" Height="300" Margin="10,0,0,0" VerticalAlignment="Top" Width="280">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="67*"/>
+                <RowDefinition Height="233*"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="201,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="79" Grid.RowSpan="2"><Run Foreground="White" FontSize="13.333" Text=" Order Items:"/></TextBlock>
+            <Button x:Name="addButton" Content="Add to Order" HorizontalAlignment="Left" Margin="10,205.333,0,0" VerticalAlignment="Top" Width="75" FontSize="10.667" Grid.Row="1"/>
+            <Button x:Name="submitButton" Content="Submit Order" HorizontalAlignment="Left" Margin="195,205.333,0,0" VerticalAlignment="Top" Width="75" FontSize="10.667" Grid.Row="1"/>
+        </Grid>
 
     </Grid>
 </Page>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 14 for Windows Desktop
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager", "RestaurantManager\RestaurantManager.csproj", "{948EE6AB-C07C-4BAC-B672-8DA32A9A189C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.UniversalWindows", "RestaurantManager\RestaurantManager.UniversalWindows.csproj", "{948EE6AB-C07C-4BAC-B672-8DA32A9A189C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
