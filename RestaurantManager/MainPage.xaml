@@ -1,0 +1,18 @@
+﻿<Page x:Class="RestaurantManager.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RestaurantManager"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="MainPage">
+
+    <Grid Background="Black">
+        <TextBlock x:Name="restaurantManagerTextBlock" HorizontalAlignment="Left" Margin="49,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="48" Width="210" FontSize="21.333" FontWeight="Bold"><Run Foreground="White" FontWeight="Normal" Text="Restaurant Manager"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="submitOrderTextBlock" HorizontalAlignment="Left" Margin="181,192,0,0" TextWrapping="Wrap" Text="**Submit Order**" VerticalAlignment="Top" Height="30" Width="119" Foreground="White" FontSize="13.333" />
+        <TextBlock x:Name="ordersViewTextBlock" HorizontalAlignment="Left" Margin="10,183,0,0" TextWrapping="Wrap" Text="**Go to Orders View**" VerticalAlignment="Top" Height="39" Width="118" Foreground="White" FontSize="13.333" />
+        <TextBlock x:Name="internalTextBlock" HorizontalAlignment="Left" Margin="89,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="130" FontSize="13.333"><Run Text="Internal Test Version" Foreground="White"/><LineBreak/><Run/></TextBlock>
+
+    </Grid>
+</Page>

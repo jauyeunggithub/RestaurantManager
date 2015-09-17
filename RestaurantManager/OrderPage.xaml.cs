@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace RestaurantManager
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for OrderPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class OrderPage : Page
     {
-        public MainWindow()
+        public OrderPage()
         {
             InitializeComponent();
         }
